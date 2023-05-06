@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Selección de personal para bootcamp</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        body {
+          font-family: Roboto, Arial, sans-serif;
+          margin: 0px;
+        }
+
+        h3 {
+          background-color: rgb(200, 199, 199);
+          text-align: center;
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          max-width: 400px;
+          margin: auto;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        select {
+          padding: 8px;
+          margin-top: 6px;
+        }
+
+        label {
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+        input {
+          padding: 10px;
+        }
+      </style>
+
+    </head>
+
+  <body>
+    <body>
+      <h3>Selección de personal para bootcamp</h3>
+
+      <br>
+      <form action="/run">
+        <label for="conocimiento_lenguaje">Experiencia en lenguajes de programación</label>
+        <select name="conocimiento_lenguaje" id="conocimiento_lenguaje">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+  
+        <br>
+        <label for="conocimiento_arquitectura">Experiencia en arquitectura</label>
+        <select name="conocimiento_arquitectura" id="conocimiento_arquitectura">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+
+        <br>
+        <label for="trabajo_equipo">Experiencia de trabajo en equipo</label>
+        <select name="trabajo_equipo" id="trabajo_equipo">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+
+        <br>
+        <label for="solucion_problemas">Habilidad en resolución en problemas</label>
+        <select name="solucion_problemas" id="solucion_problemas">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+
+        <br>
+        <label for="calidad_codigo">Calidad de código (Mantenible, escalable, fácil de testear)</label>
+        <select name="calidad_codigo" id="calidad_codigo">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+
+        <br>
+        <label for="participacion_reuniones">¿Es de participar en reuniones y exponer ideas?</label>
+        <select name="participacion_reuniones" id="participacion_reuniones">
+          <option value="True" selected>Si</option>
+          <option value="False">No</option>
+        </select>
+
+        <br>
+        <label for="uso_tecnologias">Conocimiento en cantidad y uso de tecnologías</label>
+        <select name="uso_tecnologias" id="uso_tecnologias">
+          <option value="REGULAR" selected>Regular</option>
+          <option value="BUENO">Bueno</option>
+          <option value="EXCELENTE">Excelente</option>
+        </select>
+
+        <br>
+        <label for="anios_experiencia">¿Cuántos años de experiencia laboral tiene?</label>
+        <select name="anios_experiencia" id="anios_experiencia">
+          <option value="MENOR1">Menos de 1 año</option>
+          <option value="1" selected>1 año</option>
+          <option value="2">2 años</option>
+          <option value="MAS3">Más de 3 años</option>
+        </select>
+
+        <br>
+        <label for="seniority">¿Con qué seniority quiere ingresar?</label>
+        <select name="seniority" id="seniority">
+          <option value="JUNIOR">Junior</option>
+          <option value="SEMISENIOR" selected>Semisenior</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Evaluar">
+        <br><br>
+      </form>
+    </body>
+  </body>
+</html>
